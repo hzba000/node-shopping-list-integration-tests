@@ -1,0 +1,10 @@
+language: node_js
+node_js: node
+deploy:
+  provider: heroku
+  api_key:
+    secure: xJfwMyX5F+TWqgT/PaOFvgQ1G5qhY7wk2JqRSrzvhtAnkjEG6cePMrv5G3QZ7OkegO/t/z8LmVARPlZw97uQPphT0KnQFWQ+tDdEP83jOvL0tWvIebFEkzmsl8xNKxuLPzKDhlqYc803HEttkja8CUSkaLH4ER3pUae4fsJHtUoKVYOoIiecqXVPSIHzdymKqw9p+TDRoImJEx7WjgcG2/kAmkN0bSY3a4gSKrIMn+frTD9CIDVwbLurKfWa8i2OfYwxzpd3j23wMW+dfJooZEZcIHIT+kjjHkMlmjm2lSVGU7vQNBRmNAG0RVJG0UyznKhU/3+EOdiahXgbeQ4jG0zUmNrbaFXZNyP4cbEnuDDYVarADZoYz2THNwry9STyQoPDycO4FcitOCKZjIGMdOs17uDBUn9a1ZCvXfgQPG6c/z0qOXgelxma6oF9qeB3AJIcyVqRxx40Q5yQbzisw7W5ucfGCy9WhCuVijWXh6nULg/bjfqLNahlEmn4tX/pUznoLFPjvUEqEzL/RCNtg0WyiLPLDR4VrwNiKItMjuGHM7vatJVm0WceiFCaUPUYTBEMSrRQD7hlYwm99wJ64s+NIevmpWy52v/Lx/YGAl4E2qu9AcGiMA8w46fVsVU4zwnJZccSTrpQifxJasMnrYPiuAVHKy5HLJs4Te3ACX8=
+  app: frozen-tundra-81551
+  on:
+    repo: hzba000/node-shopping-list-integration-tests
+    branch: tests-for-recipes
