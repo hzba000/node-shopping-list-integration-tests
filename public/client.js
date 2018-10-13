@@ -6,7 +6,7 @@ var shoppingItemTemplate =
   '<span class="button-label">check</span>' +
   "</button>" +
   '<button class="js-shopping-item-delete">' +
-  '<span class="button-label">delete</span>' +
+  '<span class="button-label">HOZEFA</span>' +
   "</button>" +
   "</div>" +
   "</li>";
